@@ -1,6 +1,9 @@
 module.exports = {
     theme: {
         extend: {
+            screens: {
+                'xs': {'max': '768px'}
+            },
             backgroundImage: theme => ({
                 'body-pattern': "url('../img/pattern.png')"
             }),
